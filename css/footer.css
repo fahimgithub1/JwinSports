@@ -1,0 +1,127 @@
+/* footer start */
+footer{
+    padding: 2rem 0;
+    background-color: var(--blue);
+}
+
+footer .container{
+    text-align: center;
+}
+
+footer .container div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+    justify-content: space-between;
+    margin-top: 0.55rem;
+    text-align: left;
+}
+
+footer ul li{
+    margin-right: .5rem;
+    justify-content: space-between;
+    margin-bottom: 0.55rem;
+}
+
+footer ul li a{
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    color: var(--black);
+    text-decoration: underline;
+}
+
+.FooterImg {
+    text-align: center !important;
+}
+
+.FooterImg a {
+    margin: auto;
+}
+
+.FooterImg img{
+    width: 185.4px;
+    margin: auto;
+}
+
+.SubscribeBtn{
+    background-color: var(--comola);
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #0647bb;
+}
+
+.SubscribeBtn:hover{
+    background-color: var(--lightcomola);
+}
+
+.SubscribeBtn a{
+    color: var(--black);
+}
+
+.SubscribeBtn a:hover{ 
+    text-decoration: none;
+}
+
+.FooterSocialIocn .SocialIon{
+    padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+    .SubscribeLaptop{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .FooterImg img {
+        width: 100%;
+        margin: 0;
+        height: 73px;
+    }
+
+    .SubscribeMobile{
+        display: none;
+        padding: 4px 8px;
+    }
+
+    .SubscribeLaptop {
+        list-style: none;
+        text-align: center;
+        border-radius: 6px;
+        height: min-content;
+        text-decoration: none;
+        box-shadow: 0 0 10px #0647bb;
+    }
+
+    .SubscribeLaptop a{
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: 700;
+    }
+}
+/* footer end */
+
+
+/* colors var */
+:root {
+    --blue: #4472C4;
+    --hpverblue: #699cf5;
+    --whiteblue: #005eff;
+    --white: #ffffff; 
+    --black: #000000;
+    --comola: #F79E00;
+    --lightcomola: #ffb941;
+}
