@@ -155,6 +155,15 @@
 .LiveScoreSection{
     border: 2px solid var(--black);
     border-radius: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.cricket{
+    background-color: var(--comola);
+    padding: 10px 16px;
+    border-radius: 8px;
+    margin-top: 0.5rem;
 }
 
 .score{
