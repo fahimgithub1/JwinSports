@@ -118,7 +118,8 @@
     }
 
     .vs {
-        width: 70%;
+        width: 60%;
+        margin-botom: .2rem;
         font-size: 9px !important;
     }
 }
