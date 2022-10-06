@@ -110,6 +110,7 @@
 .WinningP{
     font-weight: 200;
     color: rgb(224, 255, 198);  
+    text-align: left;
 }
 
 @media screen and (max-width: 766px) {
