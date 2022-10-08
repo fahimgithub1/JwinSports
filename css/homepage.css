@@ -1,0 +1,404 @@
+/* add banner start */
+.AddBanner{
+    padding: 2rem 0;
+    padding-bottom: .5rem;
+}
+
+.AddBanner2{
+    padding: 2rem 0;
+    padding-top: 1px;
+}
+
+
+.AddBanner img{
+    width: 100%;
+    height: 100px;
+}
+/* add banner end */
+
+/* Artical start */
+.Artical{
+    padding: 2rem 0;
+}
+
+.ArticalDIv {
+    margin-bottom: 15px;
+}
+
+.ArticalDIv .TextPart{
+    padding: 6px;
+    text-align: justify;
+}
+
+.ArticalDIv .TextPart h5{
+    text-align: left;
+    border-left: 3px solid #225fcd;
+    padding-left: 0.5rem;
+}
+
+.ArticalDIv div{
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #949494;
+}
+
+.ArticalDIv .AeicalUnderPadding:hover{
+    border: 1px solid var(--comola);
+}
+ 
+.Artical img{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: .4rem;
+}
+
+.AeicalUnderPadding{
+    position: relative;
+}
+
+.ImgTitelSpan{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--orange);
+    color: var(--white);
+    border-radius: 3px;
+    padding: 6px ;
+    font-size: 12px;
+}
+
+.ImgTitelSpanHome{
+    font-size: 10px;
+    padding: 4px ;
+}
+
+.CricketContainer{
+    padding: 0;
+}
+
+@media screen and (max-width: 575px) {
+    .PhonWidth50{
+        width: 50%;
+    }
+
+    .Artical{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 1.74rem;
+        padding-bottom: 1.1rem;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        display: none;
+    }
+}
+/* Artical end */
+
+
+/* Highlights starts*/
+.Highlights .PresentMatch{
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.Highlights .Result{
+    /* text-align: center; */
+    margin: auto;
+    margin: 2px 0;
+    background-color: var(--orange);
+    border: 29px;
+    padding: 7px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.Highlights .Result p span{
+    font-weight: bold;
+    color: var(--black);
+}
+
+.WinningP{
+    font-weight: 200;
+    color: rgb(14, 14, 14);  
+    text-align: left;
+}
+
+@media screen and (max-width: 766px) {
+    .WinningP{   
+        font-size: 8px !important;
+        text-align: left;
+    }
+
+    .Highlights .predentmobo .Result{
+        border-radius: 5px;
+    }
+
+    .Highlights .predentmobo .Result p{
+        font-size: 10px;
+    }
+
+    .Highlights{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .ColMarginNone{
+        padding-left: 0 ;
+        padding-right: 0;
+    }
+}
+
+.Highlights .DateTime{
+    padding-top: 28px;
+}
+
+.AddImgDiv img{
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .Highlights {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+/* kabadi result start */
+.kabbadi-result{
+    font-size: 12px;
+}
+
+.KabadiDateTime{
+    padding-top: 0 !important;
+    width: 100%;
+}
+
+.KabdiTime{
+    font-size: 16px;
+}
+
+.KabadiTeam .Team1,.KabadiTeam  .Team2{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.KabadiTeam .vs{
+    width:  100%;
+}
+
+.KabadiTeam{
+    border-radius: 5px;
+}
+.GameName {
+    /* margin: auto; */
+    margin-top: .5rem;
+    border-radius: 10px;
+}
+
+.GameName ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--black);
+    padding: 8px 0;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.GameName ul li{
+    margin-right: .3rem;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #525252;
+    color: rgb(219, 219, 219);
+    padding: 4px 8px;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.GameName ul li a {
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+}
+
+.GameName ul .activegame{
+    color: rgb(255, 255, 255);
+}
+
+/* live score section start */
+.LiveScoreSection{
+    border: 2px solid var(--black);
+    border-radius: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: 1rem;
+}
+
+.cricket{
+    padding: 10px 16px;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+.MacthTitle{
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+    padding-bottom: .2rem;
+}
+
+.MatvhDtatu{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.MatvhDtatu span{
+    margin-right: .2rem;
+    background-color: red;
+    padding: 1px 8px;
+    height: 28px;
+    color: var(--white);
+}
+
+.score{
+    margin-bottom: .5rem;
+}
+
+.score .target{
+    text-decoration: initial;
+}
+
+.LiveTeam {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: .3rem;
+}
+
+.LiveTeam div span {
+    font-weight: 500;
+}
+
+.LiveTeam1 img{
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    margin-right: .3rem;
+    margin-top: .2rem;
+}
+
+.LiveTeam1 h5{
+    color: var(--black) !important;
+}
+
+
+.caption{
+    background-color: #cfcdcd;
+    color: black;
+    padding: 6px ;
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+
+table{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-top: 1px solid rgb(94, 93, 93);
+}
+
+table tr{
+    margin: 10px;
+}
+
+.name{
+    font-weight: 500;
+}
+
+.textleft{
+    text-align: left;
+    padding-left: .5rem;
+}
+
+.Football .score{
+    margin: 1rem 0;
+}
+
+.score .Team1 img, .score .Team2 img{
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.score .Team1, .score .Team2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.score .Team1 span, .score .Team2 span{
+    margin-top: .2rem;
+}
+
+.score .vs{
+    width: 100%;
+}
+
+.TypefoScore {
+    margin-bottom: .5rem;
+}
+
+.TypefoScore ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.TypefoScore ul li {
+    margin-left: .5rem;
+    border: 1px solid var(--black);
+    padding: 4px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: .3rem;
+}
+
+.TypefoScore ul .active{
+    border: 1px solid var(--comola);
+}
+
+.TypefoScore ul .active a{
+    color: var(--comola);
+}
+
+.TypefoScore ul li a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+
+/* live score section end */
+
+
+/* colors var */
+:root {
+    --orange: #f49c00;
+    --hpverblue: #a66a01;
+    --whiteblue: #f7bb53;
+    --white: #ffffff; 
+    --black: #000000;
+    --comola: #F79E00;
+    --lightcomola: #ffb941;
+}
