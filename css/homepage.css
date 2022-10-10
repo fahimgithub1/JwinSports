@@ -23,11 +23,26 @@
 
 .ArticalDIv {
     margin-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .ArticalDIv .TextPart{
     padding: 6px;
     text-align: justify;
+}
+
+@media screen and (max-width: 428px) {
+    .ArticalDIv .TextPart{
+        padding: 3px;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .Artical{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
 }
 
 .ArticalDIv .TextPart h5{
@@ -388,6 +403,19 @@ table tr{
     color: var(--black);
 }
 
+.FootballScore{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.PlayerNameICon i{
+    color: #225fcd;
+}
+
+.FootballSummary{
+    border: 1px solid rgb(165, 165, 165);
+    padding: 10px;
+}
 
 /* live score section end */
 
