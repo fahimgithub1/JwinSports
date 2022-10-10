@@ -128,6 +128,7 @@
                             </ul>
                         </div>
 
+                        <!-- Cricket Match Live Score-->
                         <div class="cricket collapse show"  id="collapseOne" data-bs-parent="#accordionExample">
                             <h5 class="MacthTitle">Bangladesh VS Inida, 2nd Match, Bangladesh T20 Tri-Series</h5>
 
@@ -168,92 +169,629 @@
   
                             <p class="">Bangladeshi own the toss and decidect to bat</p>
 
-                            <div class="TypefoScore">
-                                <ul>
-                                    <li class="active">
-                                        <a href="#">
-                                            LIVE
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="#">
-                                            SCORECARD
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="#">
-                                            COMMENRY
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="batting">
-                                <table>
-                                    <tr>
-                                      <th class="textleft">Batter</th>
-                                      <th>R</th>
-                                      <th>B</th>
-                                      <th>4s</th>
-                                      <th>6s</th>
-                                      <th>SR</th>
-                                    </tr>
+                            <div id="accordionExampleCricket">
+                                <div class="TypefoScore">
+                                    <ul>
+                                        <li class="activegame active"> 
+                                            <a class="activegame" href="" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                                                LIVE
+                                            </a> 
+                                            
+                                        </li>
     
-                                    <tr>
-                                      <td class="textleft name">Tammin</td>
-                                      <td>42</td>
-                                      <td>65</td>
-                                      <td>4</td>
-                                      <td>2</td>
-                                      <td>64.61</td>
-                                    </tr>
+                                        <li>
+                                            <a class="collapsed" href="" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                                SCORECARD
+                                            </a>
+                                        </li>
+    
+                                        <li>
+                                            <a class="collapsed" href="" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                                COMMENRY
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+    
+                                <!-- cricket Live -->
+                                <div class="collapse show" id="collapse4" data-bs-parent="#accordionExampleCricket">
+                                    <div class="batting">
+                                        <table>
+                                            <tr>
+                                              <th class="textleft">Batter</th>
+                                              <th>R</th>
+                                              <th>B</th>
+                                              <th>4s</th>
+                                              <th>6s</th>
+                                              <th>SR</th>
+                                            </tr>
+            
+                                            <tr>
+                                              <td class="textleft name">Tammin</td>
+                                              <td>42</td>
+                                              <td>65</td>
+                                              <td>4</td>
+                                              <td>2</td>
+                                              <td>64.61</td>
+                                            </tr>
+                                            
+                                            <tr>
+                                              <td class="textleft name">Litton Das</td>
+                                              <td>62</td>
+                                              <td>65</td>
+                                              <td>12</td>
+                                              <td>3</td>
+                                              <td>95.38</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+            
+                                    <div class="boller">
+                                        <table>
+                                            <tr>
+                                              <th  class="textleft">Bowler</th>
+                                              <th>O</th>
+                                              <th>M</th>
+                                              <th>R</th>
+                                              <th>W</th>
+                                              <th>Eco</th>
+                                            </tr>
+            
+                                            <tr>
+                                              <td class="textleft name">Bumrah</td>
+                                              <td>3.4</td>
+                                              <td>13</td>
+                                              <td>1</td>
+                                              <td>4</td>
+                                              <td>3.8</td>
+                                            </tr>
+                                            
+                                            <tr>
+                                              <td class="textleft name">Panday</td>
+                                              <td>4</td>
+                                              <td>0</td>
+                                              <td>18</td>
+                                              <td>3</td>
+                                              <td>4.5</td>
+                                            </tr>
+                                        </table>
+                                    </div> 
+                                </div>
+    
+                                <!-- cricket ScoreCard -->
+                                <div class="collapse" id="collapse5" data-bs-parent="#accordionExampleCricket">
+                                    <!-- Frist Team innings -->
+                                    <div>
+                                        <h5 class="CricketLiveScored">Bangladeshi Innings</h5>
                                     
-                                    <tr>
-                                      <td class="textleft name">Litton Das</td>
-                                      <td>62</td>
-                                      <td>65</td>
-                                      <td>12</td>
-                                      <td>3</td>
-                                      <td>95.38</td>
-                                    </tr>
-                                </table>
-                            </div>
-    
-                            <div class="boller">
-                                <!-- <h5 class="caption">Indian Bowler</h5> -->
-                                <table>
-                                    <tr>
-                                      <th  class="textleft">Bowler</th>
-                                      <th>O</th>
-                                      <th>M</th>
-                                      <th>R</th>
-                                      <th>W</th>
-                                      <th>Eco</th>
-                                    </tr>
-    
-                                    <tr>
-                                      <td class="textleft name">Bumrah</td>
-                                      <td>3.4</td>
-                                      <td>13</td>
-                                      <td>1</td>
-                                      <td>4</td>
-                                      <td>3.8</td>
-                                    </tr>
+                                        <div class="batting">
+                                            <table>
+                                                <tr>
+                                                <th class="textleft">Batter</th>
+                                                <th>R</th>
+                                                <th>B</th>
+                                                <th>4s</th>
+                                                <th>6s</th>
+                                                <th>SR</th>
+                                                </tr>
+                
+                                                <tr>
+                                                <td class="textleft name">Tammin</td>
+                                                <td>42</td>
+                                                <td>65</td>
+                                                <td>4</td>
+                                                <td>2</td>
+                                                <td>64.61</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td class="textleft name">Litton Das</td>
+                                                <td>62</td>
+                                                <td>65</td>
+                                                <td>12</td>
+                                                <td>3</td>
+                                                <td>95.38</td>
+                                                </tr>
+                
+                                                <tr>
+                                                <td class="textleft name">Sakib</td>
+                                                <td>42</td>
+                                                <td>65</td>
+                                                <td>4</td>
+                                                <td>2</td>
+                                                <td>64.61</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td class="textleft name">Sabbir</td>
+                                                <td>62</td>
+                                                <td>65</td>
+                                                <td>12</td>
+                                                <td>3</td>
+                                                <td>95.38</td>
+                                                </tr>
+                
+                                                <tr>
+                                                <td class="textleft name">Santo</td>
+                                                <td>42</td>
+                                                <td>65</td>
+                                                <td>4</td>
+                                                <td>2</td>
+                                                <td>64.61</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td class="textleft name">Afif</td>
+                                                <td>62</td>
+                                                <td>65</td>
+                                                <td>12</td>
+                                                <td>3</td>
+                                                <td>95.38</td>
+                                                </tr>
+                
+                                                <tr>
+                                                <td class="textleft name">Mosaddek</td>
+                                                <td>42</td>
+                                                <td>65</td>
+                                                <td>4</td>
+                                                <td>2</td>
+                                                <td>64.61</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td class="textleft name">Taskin</td>
+                                                <td>62</td>
+                                                <td>65</td>
+                                                <td>12</td>
+                                                <td>3</td>
+                                                <td>95.38</td>
+                                                </tr>
+                
+                                                <tr>
+                                                <td class="textleft name">Saifuddin</td>
+                                                <td>42</td>
+                                                <td>65</td>
+                                                <td>4</td>
+                                                <td>2</td>
+                                                <td>64.61</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td class="textleft name">Soriful</td>
+                                                <td>62</td>
+                                                <td>65</td>
+                                                <td>12</td>
+                                                <td>3</td>
+                                                <td>95.38</td>
+                                                </tr>
+                
+                                                <tr>
+                                                <td class="textleft name">Ebadat</td>
+                                                <td>42</td>
+                                                <td>65</td>
+                                                <td>4</td>
+                                                <td>2</td>
+                                                <td>64.61</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                
+                                        <div class="boller">
+                                            <table>
+                                                <tr>
+                                                <th  class="textleft">Bowler</th>
+                                                <th>O</th>
+                                                <th>M</th>
+                                                <th>R</th>
+                                                <th>W</th>
+                                                <th>Eco</th>
+                                                </tr>
+                
+                                                <tr>
+                                                <td class="textleft name">Bumrah</td>
+                                                <td>3.4</td>
+                                                <td>13</td>
+                                                <td>1</td>
+                                                <td>4</td>
+                                                <td>3.8</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td class="textleft name">Panday</td>
+                                                <td>4</td>
+                                                <td>0</td>
+                                                <td>18</td>
+                                                <td>3</td>
+                                                <td>4.5</td>
+                                                </tr>
+                
+                                                <tr>
+                                                <td class="textleft name">Bumrah</td>
+                                                <td>3.4</td>
+                                                <td>13</td>
+                                                <td>1</td>
+                                                <td>4</td>
+                                                <td>3.8</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td class="textleft name">Panday</td>
+                                                <td>4</td>
+                                                <td>0</td>
+                                                <td>18</td>
+                                                <td>3</td>
+                                                <td>4.5</td>
+                                                </tr>
+                
+                                                <tr>
+                                                <td class="textleft name">Bumrah</td>
+                                                <td>3.4</td>
+                                                <td>13</td>
+                                                <td>1</td>
+                                                <td>4</td>
+                                                <td>3.8</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                <td class="textleft name">Panday</td>
+                                                <td>4</td>
+                                                <td>0</td>
+                                                <td>18</td>
+                                                <td>3</td>
+                                                <td>4.5</td>
+                                                </tr>
+                                            </table>
+                                        </div> 
+                                    </div>
+
+                                    <!-- 2nd Team innings -->
+                                    <div>
+                                        <h5 class="CricketLiveScored">India Innings</h5>
                                     
-                                    <tr>
-                                      <td class="textleft name">Panday</td>
-                                      <td>4</td>
-                                      <td>0</td>
-                                      <td>18</td>
-                                      <td>3</td>
-                                      <td>4.5</td>
-                                    </tr>
-                                </table>
-                            </div> 
+                                        <div class="batting">
+                                            <table>
+                                                <tr>
+                                                    <th class="textleft">Batter</th>
+                                                    <th>R</th>
+                                                    <th>B</th>
+                                                    <th>4s</th>
+                                                    <th>6s</th>
+                                                    <th>SR</th>
+                                                </tr>
+                
+                                                <tr>
+                                                    <td class="textleft name">Rohit</td>
+                                                    <td>42</td>
+                                                    <td>65</td>
+                                                    <td>4</td>
+                                                    <td>2</td>
+                                                    <td>64.61</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td class="textleft name">Dowan</td>
+                                                    <td>62</td>
+                                                    <td>65</td>
+                                                    <td>12</td>
+                                                    <td>3</td>
+                                                    <td>95.38</td>
+                                                </tr>
+                
+                                                <tr>
+                                                    <td class="textleft name">Kholi</td>
+                                                    <td>42</td>
+                                                    <td>65</td>
+                                                    <td>4</td>
+                                                    <td>2</td>
+                                                    <td>64.61</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td class="textleft name">Pande</td>
+                                                    <td>62</td>
+                                                    <td>65</td>
+                                                    <td>12</td>
+                                                    <td>3</td>
+                                                    <td>95.38</td>
+                                                </tr>
+                
+                                                <tr>
+                                                    <td class="textleft name">Ranna</td>
+                                                    <td>42</td>
+                                                    <td>65</td>
+                                                    <td>4</td>
+                                                    <td>2</td>
+                                                    <td>64.61</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td class="textleft name">Doni</td>
+                                                    <td>62</td>
+                                                    <td>65</td>
+                                                    <td>12</td>
+                                                    <td>3</td>
+                                                    <td>95.38</td>
+                                                </tr>
+                
+                                                <tr>
+                                                    <td class="textleft name">Sami</td>
+                                                    <td>42</td>
+                                                    <td>65</td>
+                                                    <td>4</td>
+                                                    <td>2</td>
+                                                    <td>64.61</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td class="textleft name">Bumra</td>
+                                                    <td>62</td>
+                                                    <td>65</td>
+                                                    <td>12</td>
+                                                    <td>3</td>
+                                                    <td>95.38</td>
+                                                </tr>
+                
+                                                <tr>
+                                                    <td class="textleft name">Aswin</td>
+                                                    <td>42</td>
+                                                    <td>65</td>
+                                                    <td>4</td>
+                                                    <td>2</td>
+                                                    <td>64.61</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td class="textleft name">Sabag</td>
+                                                    <td>62</td>
+                                                    <td>65</td>
+                                                    <td>12</td>
+                                                    <td>3</td>
+                                                    <td>95.38</td>
+                                                </tr>
+                
+                                                <tr>
+                                                    <td class="textleft name">Ebadat</td>
+                                                    <td>42</td>
+                                                    <td>65</td>
+                                                    <td>4</td>
+                                                    <td>2</td>
+                                                    <td>64.61</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                
+                                        <div class="boller">
+                                            <table>
+                                                <tr>
+                                                    <th  class="textleft">Bowler</th>
+                                                    <th>O</th>
+                                                    <th>M</th>
+                                                    <th>R</th>
+                                                    <th>W</th>
+                                                    <th>Eco</th>
+                                                </tr>
+                
+                                                <tr>
+                                                    <td class="textleft name">Saifuddin</td>
+                                                    <td>3.4</td>
+                                                    <td>13</td>
+                                                    <td>1</td>
+                                                    <td>4</td>
+                                                    <td>3.8</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td class="textleft name">Soriful</td>
+                                                    <td>4</td>
+                                                    <td>0</td>
+                                                    <td>18</td>
+                                                    <td>3</td>
+                                                    <td>4.5</td>
+                                                </tr>
+                
+                                                <tr>
+                                                    <td class="textleft name">Afif</td>
+                                                    <td>3.4</td>
+                                                    <td>13</td>
+                                                    <td>1</td>
+                                                    <td>4</td>
+                                                    <td>3.8</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td class="textleft name">Taskin</td>
+                                                    <td>4</td>
+                                                    <td>0</td>
+                                                    <td>18</td>
+                                                    <td>3</td>
+                                                    <td>4.5</td>
+                                                </tr>
+                
+                                                <tr>
+                                                    <td class="textleft name">Sakib</td>
+                                                    <td>3.4</td>
+                                                    <td>13</td>
+                                                    <td>1</td>
+                                                    <td>4</td>
+                                                    <td>3.8</td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td class="textleft name">Ebadat</td>
+                                                    <td>4</td>
+                                                    <td>0</td>
+                                                    <td>18</td>
+                                                    <td>3</td>
+                                                    <td>4.5</td>
+                                                </tr>
+                                            </table>
+                                        </div> 
+                                    </div> 
+                                </div>
+
+                                <!-- Cricket commentry -->
+                                <div class="collapse" id="collapse6" data-bs-parent="#accordionExampleCricket">
+
+                                    <div>
+                                        <span class="OverStarus">Out 6 1 0 2 1(10/1) </span>
+
+                                        <div class="CricketCommentry d-flex">
+                                            <div class="Status">Out</div>
+
+                                            <div>
+                                                <span>1.3</span> Sakib Bold Out b Bumara
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="CricketCommentry d-flex">
+                                            <div class="Status Six">6</div>
+
+                                            <div>
+                                                <span class="">2.5</span> Six, Afif b Sami
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="CricketCommentry d-flex">
+                                            <div class="Status NormalRun">1</div>
+
+                                            <div>
+                                                <span class="">2.5</span> Six, Afif b Sami
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="CricketCommentry d-flex">
+                                            <div class="Status NormalRun">0</div>
+
+                                            <div>
+                                                <span>1.3</span> Sakib Bold Out b Bumara
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="CricketCommentry d-flex">
+                                            <div class="Status NormalRun">2</div>
+
+                                            <div>
+                                                <span class="">2.5</span> Six, Afif b Sami
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="CricketCommentry d-flex">
+                                            <div class="Status NormalRun">1</div>
+
+                                            <div>
+                                                <span>2.5</span> Six, Afif b Sami
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <span class="OverStarus">Out 6 1 0 2 1(10/1) </span>
+
+                                        <div class="CricketCommentry d-flex">
+                                            <div class="Status">Out</div>
+
+                                            <div>
+                                                <span>1.3</span> Sakib Bold Out b Bumara
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="CricketCommentry d-flex">
+                                            <div class="Status Six">6</div>
+
+                                            <div>
+                                                <span class="">2.5</span> Six, Afif b Sami
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="CricketCommentry d-flex">
+                                            <div class="Status NormalRun">1</div>
+
+                                            <div>
+                                                <span class="">2.5</span> Six, Afif b Sami
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="CricketCommentry d-flex">
+                                            <div class="Status NormalRun">0</div>
+
+                                            <div>
+                                                <span>1.3</span> Sakib Bold Out b Bumara
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="CricketCommentry d-flex">
+                                            <div class="Status NormalRun">2</div>
+
+                                            <div>
+                                                <span class="">2.5</span> Six, Afif b Sami
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="CricketCommentry d-flex">
+                                            <div class="Status NormalRun">1</div>
+
+                                            <div>
+                                                <span>2.5</span> Six, Afif b Sami
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <span class="OverStarus">Out 6 1 0 2 1(10/1) </span>
+
+                                        <div class="CricketCommentry d-flex">
+                                            <div class="Status">Out</div>
+
+                                            <div>
+                                                <span>1.3</span> Sakib Bold Out b Bumara
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="CricketCommentry d-flex">
+                                            <div class="Status Six">6</div>
+
+                                            <div>
+                                                <span class="">2.5</span> Six, Afif b Sami
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="CricketCommentry d-flex">
+                                            <div class="Status NormalRun">1</div>
+
+                                            <div>
+                                                <span class="">2.5</span> Six, Afif b Sami
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="CricketCommentry d-flex">
+                                            <div class="Status NormalRun">0</div>
+
+                                            <div>
+                                                <span>1.3</span> Sakib Bold Out b Bumara
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="CricketCommentry d-flex">
+                                            <div class="Status NormalRun">2</div>
+
+                                            <div>
+                                                <span class="">2.5</span> Six, Afif b Sami
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="CricketCommentry d-flex">
+                                            <div class="Status NormalRun">1</div>
+
+                                            <div>
+                                                <span>2.5</span> Six, Afif b Sami
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
+                        <!-- Football Match Live Score-->
                         <div class="cricket collapse" id="collapseTwo" data-bs-parent="#accordionExample">
                             <h5 class="MacthTitle">Argentian VS Argentian, 5th Match, FIFA World Cup 2024</h5>
 
@@ -289,160 +827,201 @@
                                 </div>
                             </div>
 
-                            <div class="TypefoScore">
-                                <ul>
-                                    <li class="active">
-                                        <a href="#">
-                                            LIVE
-                                        </a>
-                                    </li>
-
-                                    <!-- <li>
-                                        <a href="#">
-                                            SCORECARD
-                                        </a>
-                                    </li> -->
-
-                                    <li>
-                                        <a href="#">
-                                            COMMENRY
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            
-                            <div class="FootballSummary">
-                                <div class="FootballSummaryDiv d-flex justify-content-between">
-                                    <div class="Team11 d-flex col-5 justify-content-between">
-                                        <div class="Time">
-                                            10'
-                                        </div>
-
-                                        <div class="PlayerNameICon">
-                                            Messi 
-                                            <i class="fa-solid fa-futbol"></i> 
-                                            <!-- <i class="fa-solid fa-clipboard"></i> -->
-                                        </div>
-                                    </div>
-
-                                    <div class="FootballScore Happend">
-                                        1 - 0
-                                    </div>
-
-                                    <div class="Team22 d-flex col-5 justify-content-between">
-                                        <!-- nodata need-->
-                                    </div>
+                            <div id="accordionExampleFootbal">
+                                <div class="TypefoScore">
+                                    <ul>
+                                        <li class="activegame active"> 
+                                            <a class="activegame" href="" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="true" aria-controls="collapse7">
+                                                LIVE
+                                            </a> 
+                                            
+                                        </li>
+    
+                                        <li>
+                                            <a class="collapsed" href="" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                                COMMENRY
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </div>
-
-                                <div class="FootballSummaryDiv d-flex justify-content-between">
-                                    <div class="Team11 d-flex col-5 justify-content-between">
-                                        <div class="Time">
-                                            15'
+                                
+                                <!-- Football Live Score -->
+                                <div class="FootballSummary collapse show" id="collapse7" data-bs-parent="#accordionExampleFootbal">
+                                    <div class="FootballSummaryDiv d-flex justify-content-between">
+                                        <div class="Team11 d-flex col-5 justify-content-between">
+                                            <div class="Time">
+                                                10'
+                                            </div>
+    
+                                            <div class="PlayerNameICon">
+                                                Messi 
+                                                <i class="fa-solid fa-futbol"></i> 
+                                                <!-- <i class="fa-solid fa-clipboard"></i> -->
+                                            </div>
                                         </div>
-
-                                        <div class="PlayerNameICon">
+    
+                                        <div class="FootballScore Happend">
+                                            1 - 0
+                                        </div>
+    
+                                        <div class="Team22 d-flex col-5 justify-content-between">
+                                            <!-- nodata need-->
+                                        </div>
+                                    </div>
+    
+                                    <div class="FootballSummaryDiv d-flex justify-content-between">
+                                        <div class="Team11 d-flex col-5 justify-content-between">
+                                            <div class="Time">
+                                                15'
+                                            </div>
+    
+                                            <div class="PlayerNameICon">
+                                                <!-- nodata need -->
+                                            </div>
+                                        </div>
+    
+                                        <div class="FootballScore Happend">
                                             <!-- nodata need -->
                                         </div>
-                                    </div>
-
-                                    <div class="FootballScore Happend">
-                                        <!-- nodata need -->
-                                    </div>
-
-                                    <div class="Team22 d-flex col-5 justify-content-between">
-                                        <div class="PlayerNameICon">
-                                            <i class="fa-solid fa-clipboard YellowColor"></i>
-                                             Naymer
+    
+                                        <div class="Team22 d-flex col-5 justify-content-between">
+                                            <div class="PlayerNameICon">
+                                                <i class="fa-solid fa-clipboard YellowColor"></i>
+                                                 Naymer
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                               
-                                <div class="FootballSummaryDiv d-flex justify-content-between">
-                                    <div class="Team11 d-flex col-5 justify-content-between">
-                                        <div class="Time">
-                                            20'
+                                   
+                                    <div class="FootballSummaryDiv d-flex justify-content-between">
+                                        <div class="Team11 d-flex col-5 justify-content-between">
+                                            <div class="Time">
+                                                20'
+                                            </div>
+    
+                                            <div class="PlayerNameICon">
+                                                Messi 
+                                                <i class="fa-solid fa-futbol"></i> 
+                                                <!-- <i class="fa-solid fa-clipboard"></i> -->
+                                            </div>
                                         </div>
-
-                                        <div class="PlayerNameICon">
-                                            Messi 
-                                            <i class="fa-solid fa-futbol"></i> 
-                                            <!-- <i class="fa-solid fa-clipboard"></i> -->
+    
+                                        <div class="FootballScore Happend">
+                                            1 - 0
+                                        </div>
+    
+                                        <div class="Team22 d-flex col-5 justify-content-between">
+                                            <!-- nodata need-->
                                         </div>
                                     </div>
-
-                                    <div class="FootballScore Happend">
-                                        1 - 0
-                                    </div>
-
-                                    <div class="Team22 d-flex col-5 justify-content-between">
-                                        <!-- nodata need-->
-                                    </div>
-                                </div>
-
-                                <div class="FootballSummaryDiv d-flex justify-content-between">
-                                    <div class="Team11 d-flex col-5 justify-content-between">
-                                        <div class="Time">
-                                            25'
+    
+                                    <div class="FootballSummaryDiv d-flex justify-content-between">
+                                        <div class="Team11 d-flex col-5 justify-content-between">
+                                            <div class="Time">
+                                                25'
+                                            </div>
+    
+                                            <div class="PlayerNameICon">
+                                                <!-- nodata need -->
+                                            </div>
                                         </div>
-
-                                        <div class="PlayerNameICon">
+    
+                                        <div class="FootballScore Happend">
                                             <!-- nodata need -->
                                         </div>
-                                    </div>
-
-                                    <div class="FootballScore Happend">
-                                        <!-- nodata need -->
-                                    </div>
-
-                                    <div class="Team22 d-flex col-5 justify-content-between">
-                                        <div class="PlayerNameICon">
-                                            <i class="fa-solid fa-clipboard YellowColor"></i>
-                                             Naymer
+    
+                                        <div class="Team22 d-flex col-5 justify-content-between">
+                                            <div class="PlayerNameICon">
+                                                <i class="fa-solid fa-clipboard YellowColor"></i>
+                                                 Naymer
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-
-                                <div class="FootballSummaryDiv d-flex justify-content-between">
-                                    <div class="Team11 d-flex col-5 justify-content-between">
-                                        <div class="Time">
-                                            30'
+    
+                                    <div class="FootballSummaryDiv d-flex justify-content-between">
+                                        <div class="Team11 d-flex col-5 justify-content-between">
+                                            <div class="Time">
+                                                30'
+                                            </div>
+    
+                                            <div class="PlayerNameICon">
+                                                Messi 
+                                                <i class="fa-solid fa-futbol"></i> 
+                                                <!-- <i class="fa-solid fa-clipboard"></i> -->
+                                            </div>
                                         </div>
-
-                                        <div class="PlayerNameICon">
-                                            Messi 
-                                            <i class="fa-solid fa-futbol"></i> 
-                                            <!-- <i class="fa-solid fa-clipboard"></i> -->
+    
+                                        <div class="FootballScore Happend">
+                                            1 - 0
+                                        </div>
+    
+                                        <div class="Team22 d-flex col-5 justify-content-between">
+                                            <!-- nodata need-->
                                         </div>
                                     </div>
-
-                                    <div class="FootballScore Happend">
-                                        1 - 0
-                                    </div>
-
-                                    <div class="Team22 d-flex col-5 justify-content-between">
-                                        <!-- nodata need-->
-                                    </div>
-                                </div>
-
-                                <div class="FootballSummaryDiv d-flex justify-content-between">
-                                    <div class="Team11 d-flex col-5 justify-content-between">
-                                        <div class="Time">
-                                            45'
+    
+                                    <div class="FootballSummaryDiv d-flex justify-content-between">
+                                        <div class="Team11 d-flex col-5 justify-content-between">
+                                            <div class="Time">
+                                                45'
+                                            </div>
+    
+                                            <div class="PlayerNameICon">
+                                                <!-- nodata need -->
+                                            </div>
                                         </div>
-
-                                        <div class="PlayerNameICon">
+    
+                                        <div class="FootballScore Happend">
                                             <!-- nodata need -->
                                         </div>
+    
+                                        <div class="Team22 d-flex col-5 justify-content-between">
+                                            <div class="PlayerNameICon">
+                                                <i class="fa-solid fa-clipboard YellowColor"></i>
+                                                 Naymer
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Football Commentry -->
+                                <div class="FootballSummary collapse" id="collapse8" data-bs-parent="#accordionExampleFootbal">
+                                    <div class="CricketCommentry d-flex">
+                                        <div class="col-1 text-center CommentryTime">15'</div>
+
+                                        <div class="col-11">
+                                            The cross by Demarai Gray from Everton successfully finds a teammate in the box.
+                                        </div>
                                     </div>
 
-                                    <div class="FootballScore Happend">
-                                        <!-- nodata need -->
+                                    <div class="CricketCommentry d-flex">
+                                        <div class="col-1 text-center CommentryTime">18'</div>
+
+                                        <div class="col-11">
+                                            The cross by Demarai Gray from Everton successfully finds a teammate in the box.
+                                        </div>
                                     </div>
 
-                                    <div class="Team22 d-flex col-5 justify-content-between">
-                                        <div class="PlayerNameICon">
-                                            <i class="fa-solid fa-clipboard YellowColor"></i>
-                                             Naymer
+                                    <div class="CricketCommentry d-flex">
+                                        <div class="col-1 text-center CommentryTime">25'</div>
+
+                                        <div class="col-11">
+                                            The cross by Demarai Gray from Everton successfully finds a teammate in the box.
+                                        </div>
+                                    </div>
+
+                                    <div class="CricketCommentry d-flex">
+                                        <div class="col-1 text-center CommentryTime">32'</div>
+
+                                        <div class="col-11">
+                                            The cross by Demarai Gray from Everton successfully finds a teammate in the box.
+                                        </div>
+                                    </div>
+
+                                    <div class="CricketCommentry d-flex">
+                                        <div class="col-1 text-center CommentryTime">40'</div>
+
+                                        <div class="col-11">
+                                            The cross by Demarai Gray from Everton successfully finds a teammate in the box.
                                         </div>
                                     </div>
                                 </div>
@@ -484,124 +1063,192 @@
                                 </div>
                             </div>
 
-                            <div class="TypefoScore">
-                                <ul>
-                                    <li class="active">
-                                        <a href="#">
-                                            LIVE
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="#">
-                                            COMMENRY
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <div class="FootballSummary">
-                                <div class="FootballSummaryDiv KabaddiLive d-flex justify-content-between">
-                                    <div class="Time col-1">
-                                        13'
-                                    </div>
-
-                                    <div class="PlayerNameICon col-8text-center">
-                                        Empty raid by Siddharth Sirish Desai.
-                                    </div>
-
-                                    <div class="KabaddiScore Happend col-3 text-center" >
-                                         <span>10 - 8</span> 
-                                    </div>
-                                </div>
-                                
-                                <div class="FootballSummaryDiv KabaddiLive d-flex justify-content-between">
-                                    <div class="Time col-1">
-                                        13'
-                                    </div>
-
-                                    <div class="PlayerNameICon col-8text-center">
-                                        Empty raid by Siddharth Sirish Desai.
-                                    </div>
-
-                                    <div class="KabaddiScore Happend col-3 text-center" >
-                                         <span>10 - 8</span> 
-                                    </div>
-                                </div>
-                                
-                                <div class="FootballSummaryDiv KabaddiLive d-flex justify-content-between">
-                                    <div class="Time col-1">
-                                        13'
-                                    </div>
-
-                                    <div class="PlayerNameICon col-8text-center">
-                                        Empty raid by Siddharth Sirish Desai.
-                                    </div>
-
-                                    <div class="KabaddiScore Happend col-3 text-center" >
-                                         <span>10 - 8</span> 
-                                    </div>
-                                </div>
-                               
-                                <div class="FootballSummaryDiv KabaddiLive d-flex justify-content-between">
-                                    <div class="Time col-1">
-                                        13'
-                                    </div>
-
-                                    <div class="PlayerNameICon col-8text-center">
-                                        Empty raid by Siddharth Sirish Desai.
-                                    </div>
-
-                                    <div class="KabaddiScore Happend col-3 text-center" >
-                                         <span>10 - 8</span> 
-                                    </div>
+                            <div id="accordionExampleKabaddi">
+                                <div class="TypefoScore">
+                                    <ul>
+                                        <li class="activegame active"> 
+                                            <a class="activegame" href="" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="true" aria-controls="collapse9">
+                                                LIVE
+                                            </a> 
+                                            
+                                        </li>
+    
+                                        <li>
+                                            <a class="collapsed" href="" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                                                COMMENRY
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </div>
 
-                                <div class="FootballSummaryDiv KabaddiLive d-flex justify-content-between">
-                                    <div class="Time col-1">
-                                        13'
+                                <!-- Footbalo Live -->
+                                <div class="FootballSummary collapse show" id="collapse9" data-bs-parent="#accordionExampleKabaddi">
+                                    <div class="FootballSummaryDiv KabaddiLive d-flex justify-content-between">
+                                        <div class="Time col-1">
+                                            13'
+                                        </div>
+    
+                                        <div class="PlayerNameICon col-8text-center">
+                                            Empty raid by Siddharth Sirish Desai.
+                                        </div>
+    
+                                        <div class="KabaddiScore Happend col-3 text-center" >
+                                             <span>10 - 8</span> 
+                                        </div>
                                     </div>
-
-                                    <div class="PlayerNameICon col-8text-center">
-                                        Empty raid by Siddharth Sirish Desai.
+                                    
+                                    <div class="FootballSummaryDiv KabaddiLive d-flex justify-content-between">
+                                        <div class="Time col-1">
+                                            13'
+                                        </div>
+    
+                                        <div class="PlayerNameICon col-8text-center">
+                                            Empty raid by Siddharth Sirish Desai.
+                                        </div>
+    
+                                        <div class="KabaddiScore Happend col-3 text-center" >
+                                             <span>10 - 8</span> 
+                                        </div>
                                     </div>
-
-                                    <div class="KabaddiScore Happend col-3 text-center" >
-                                         <span>10 - 8</span> 
+                                    
+                                    <div class="FootballSummaryDiv KabaddiLive d-flex justify-content-between">
+                                        <div class="Time col-1">
+                                            13'
+                                        </div>
+    
+                                        <div class="PlayerNameICon col-8text-center">
+                                            Empty raid by Siddharth Sirish Desai.
+                                        </div>
+    
+                                        <div class="KabaddiScore Happend col-3 text-center" >
+                                             <span>10 - 8</span> 
+                                        </div>
+                                    </div>
+                                   
+                                    <div class="FootballSummaryDiv KabaddiLive d-flex justify-content-between">
+                                        <div class="Time col-1">
+                                            13'
+                                        </div>
+    
+                                        <div class="PlayerNameICon col-8text-center">
+                                            Empty raid by Siddharth Sirish Desai.
+                                        </div>
+    
+                                        <div class="KabaddiScore Happend col-3 text-center" >
+                                             <span>10 - 8</span> 
+                                        </div>
+                                    </div>
+    
+                                    <div class="FootballSummaryDiv KabaddiLive d-flex justify-content-between">
+                                        <div class="Time col-1">
+                                            13'
+                                        </div>
+    
+                                        <div class="PlayerNameICon col-8text-center">
+                                            Empty raid by Siddharth Sirish Desai.
+                                        </div>
+    
+                                        <div class="KabaddiScore Happend col-3 text-center" >
+                                             <span>10 - 8</span> 
+                                        </div>
+                                    </div>
+    
+                                    <div class="FootballSummaryDiv KabaddiLive d-flex justify-content-between">
+                                        <div class="Time col-1">
+                                            13'
+                                        </div>
+    
+                                        <div class="PlayerNameICon col-8text-center">
+                                            Empty raid by Siddharth Sirish Desai.
+                                        </div>
+    
+                                        <div class="KabaddiScore Happend col-3 text-center" >
+                                             <span>10 - 8</span> 
+                                        </div>
+                                    </div>
+    
+                                    <div class="FootballSummaryDiv KabaddiLive d-flex justify-content-between">
+                                        <div class="Time col-1">
+                                            13'
+                                        </div>
+    
+                                        <div class="PlayerNameICon col-8text-center">
+                                            Empty raid by Siddharth Sirish Desai.
+                                        </div>
+    
+                                        <div class="KabaddiScore Happend col-3 text-center" >
+                                             <span>10 - 8</span> 
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div class="FootballSummaryDiv KabaddiLive d-flex justify-content-between">
-                                    <div class="Time col-1">
-                                        13'
+                                <!-- Footbalo Live -->
+                                <div class="FootballSummary collapse" id="collapse10" data-bs-parent="#accordionExampleKabaddi">
+                                    <div class="FootballSummaryDiv KabaddiLive d-flex">
+                                        <div class="Time col-1">
+                                            13'
+                                        </div>
+    
+                                        <div class="PlayerNameICon col-11">
+                                            Empty raid by Siddharth Sirish Desai.
+                                        </div>
                                     </div>
 
-                                    <div class="PlayerNameICon col-8text-center">
-                                        Empty raid by Siddharth Sirish Desai.
+                                    <div class="FootballSummaryDiv KabaddiLive d-flex">
+                                        <div class="Time col-1">
+                                            13'
+                                        </div>
+    
+                                        <div class="PlayerNameICon col-11">
+                                            Empty raid by Siddharth Sirish Desai.
+                                        </div>
                                     </div>
 
-                                    <div class="KabaddiScore Happend col-3 text-center" >
-                                         <span>10 - 8</span> 
-                                    </div>
-                                </div>
-
-                                <div class="FootballSummaryDiv KabaddiLive d-flex justify-content-between">
-                                    <div class="Time col-1">
-                                        13'
-                                    </div>
-
-                                    <div class="PlayerNameICon col-8text-center">
-                                        Empty raid by Siddharth Sirish Desai.
+                                    <div class="FootballSummaryDiv KabaddiLive d-flex">
+                                        <div class="Time col-1">
+                                            17'
+                                        </div>
+    
+                                        <div class="PlayerNameICon col-11">
+                                            Empty raid by Siddharth Sirish Desai.
+                                        </div>
                                     </div>
 
-                                    <div class="KabaddiScore Happend col-3 text-center" >
-                                         <span>10 - 8</span> 
+                                    <div class="FootballSummaryDiv KabaddiLive d-flex">
+                                        <div class="Time col-1">
+                                            23'
+                                        </div>
+    
+                                        <div class="PlayerNameICon col-11">
+                                            Empty raid by Siddharth Sirish Desai.
+                                        </div>
+                                    </div>
+
+                                    <div class="FootballSummaryDiv KabaddiLive d-flex">
+                                        <div class="Time col-1">
+                                            30'
+                                        </div>
+    
+                                        <div class="PlayerNameICon col-11">
+                                            Empty raid by Siddharth Sirish Desai.
+                                        </div>
+                                    </div>
+
+                                    <div class="FootballSummaryDiv KabaddiLive d-flex">
+                                        <div class="Time col-1">
+                                            34'
+                                        </div>
+    
+                                        <div class="PlayerNameICon col-11">
+                                            Empty raid by Siddharth Sirish Desai.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
+                    <!-- Kabaddi Match Live Score-->
                     <div class="col-lg-4 col-md-4 col-sm 12">
                         <div class="Adds">
                             <div class="AddImgDiv">
