@@ -164,6 +164,7 @@
 .Highlights .PresentMatch{
     margin: auto;
     margin-bottom: 1rem;
+    border: 1px solid #a3a3a3;
 }
 
 .Highlights .Result{
