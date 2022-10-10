@@ -36,6 +36,8 @@
 .ArticalDIv .TextPart{
     padding: 6px;
     text-align: justify;
+    /* border: .5px solid black; */
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 428px) {
@@ -57,9 +59,13 @@
     padding-left: 0.5rem;
 }
 
+.AeicalUnderPadding{
+    border: 1px solid #020202;
+    border-radius: 7px;
+}
+
 .ArticalDIv div{
     background-color: #ffffff;
-    border-radius: 5px;
     box-shadow: 0 0 3px #949494;
 }
 
@@ -69,8 +75,6 @@
  
 .Artical img{
     width: 100%;
-    border-radius: 5px;
-    margin-bottom: .4rem;
 }
 
 .AeicalUnderPadding{
@@ -148,6 +152,7 @@
     .ArticalDIv .TextPart{
         padding-left: 7px;
         padding-right: 7px;
+        border-radius: 7px !important;
         text-align: justify;
     }
 }
@@ -267,6 +272,8 @@
 
 .AddImgDiv img{
     width: 100%;
+    margin-bottom: .5rem;
+    border-radius: 5px;
 }
 
 @media screen and (min-width: 1024px) {
