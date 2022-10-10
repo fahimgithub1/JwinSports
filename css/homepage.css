@@ -23,6 +23,12 @@
 
 .ArticalDIv {
     margin-bottom: 15px;
+    padding-left: 12px;
+    padding-right: 17px;
+}
+
+.ArticalDIvHome {
+    margin-bottom: 15px;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -106,7 +112,46 @@
     .carousel-indicators [data-bs-target] {
         display: none;
     }
+
+    .CricketMoboPadding{
+        margin-left: 14px !important;
+        margin-right: 15px !important;
+        width: 100%;
+    }
+
+    .CricketAdd{
+        padding: 0 14px;
+    }
+
+    .CricketMoboPadding .Team img{
+        width: 28px !important;
+        height: 28px !important;
+    }
+
+    .CricketMoboPadding .Team .Team1 span, 
+    .CricketMoboPadding .Team .Team2 span{
+        font-size: 16px !important;
+    }
+
+    .CricketMoboPadding .Result p{
+        font-size: 15px !important;
+    }
+
+    .ArticalDIv .TextPart h5 {
+        font-size: 15px !important;
+    }
+
+    .ArticalDIv .TextPart h3 {
+        font-size: 17px !important;
+    }
+
+    .ArticalDIv .TextPart{
+        padding-left: 7px;
+        padding-right: 7px;
+        text-align: justify;
+    }
 }
+
 /* Artical end */
 
 
@@ -175,7 +220,7 @@
 
 @media screen and (min-width: 1024px) {
     .Highlights {
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
 }
@@ -484,6 +529,7 @@ table tr{
 .CommentryTime{
     font-weight: 500;
 }
+
 /* live score section end */
 
 
