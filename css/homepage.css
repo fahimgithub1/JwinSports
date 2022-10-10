@@ -417,6 +417,34 @@ table tr{
     padding: 10px;
 }
 
+.YellowColor{
+    color: rgb(255, 206, 0) !important;
+}
+
+.FootballSummaryDiv{
+    margin-bottom: .4rem;
+}
+
+.KabaddiScore{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.KabaddiScore span{
+    background: #e7e7e7;
+    padding: 1px 8px;
+}
+
+.KabaddiLive .Time{
+    margin-right: .4rem;
+    text-align: center;
+}
+
+.KabaddiLive .Happend{
+    margin-left: .4rem;
+}
+
+
 /* live score section end */
 
 
