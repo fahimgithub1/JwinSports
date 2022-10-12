@@ -53,7 +53,7 @@
 
 .Team span{
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .Team1,
@@ -73,8 +73,8 @@
 .Team1 img,
 .Team2 img{
     vertical-align: middle;
-    width: 20px !important;
-    height: 20px;
+    width: 25px !important;
+    height: 25px;
     border-radius: 50%;
     box-shadow: 0 0 3px;
     margin-right: .3rem;
@@ -89,7 +89,7 @@
 @media screen and (max-width: 991px) {
     .Team1 span,
     .Team2 span{
-        font-size: 10px !important;
+        font-size: 14px !important;
     }
 }
 
@@ -119,8 +119,9 @@
 
     .vs {
         width: 60%;
-        font-size: 9px !important;
+        font-size: 14px !important;
     }
+
 }
 
 
