@@ -637,6 +637,12 @@ table tr{
     }
 }
 
+@media screen and (max-width: 374px) and (min-width: 326px) {
+    .FooterBottom ul li {
+        margin: none;
+        margin-right: 0.4rem;
+    }
+}
 
 /* live score section end */
 
