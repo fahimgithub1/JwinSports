@@ -1,516 +1,653 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
-        <title>JSports</title>
+/* add banner start */
+.AddBanner{
+    padding: 2rem 0;
+    padding-bottom: .5rem;
+}
 
-        <!-- font-awesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+.AddBanner2{
+    padding: 2rem 0;
+    padding-top: 1px;
+}
 
-        <!-- google fronts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
 
-        <!-- bootstrap file link -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+.AddBanner img{
+    width: 100%;
+    height: 100px;
+}
+/* add banner end */
 
-        <!-- OWL carosule link -->
-        <link rel="stylesheet" href="./css/owl.carousel.min.css">
-        <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+/* Artical start */
+.Artical{
+    padding: 2rem 0;
+}
 
-        <!-- css file links -->
-        <link rel="stylesheet" href="./css/navber.css">
-        <link rel="stylesheet" href="./css/Heros.css">
-        <link rel="stylesheet" href="./css/LiveScore.css">
-        <link rel="stylesheet" href="./css/footer.css">
-        <link rel="stylesheet" href="./css/homepage.css">
-    </head>
+.ArticalDIv {
+    margin-bottom: 15px;
+    padding-left: 12px;
+    padding-right: 17px;
+}
 
-    <body>
-        <!-- navber start -->
-        <nav class="navbar navbar-expand-md navbar-light bg-light col-12">
-            <!-- <div class=""> -->
-                <div class="TopNav">
-                    <div class="row container">
-                        <div class="col-4">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <!-- <span class="navbar-toggler-icon"></span> -->
-                                <i class="fa-solid fa-bars"></i>
-                            </button>
+.ArticalDIvHome {
+    margin-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
-                            <div class="SocialIon SocialIonLaptop">
-                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                            </div>
-                        </div>
+.ArticalDIv .TextPart{
+    padding: 6px;
+    text-align: justify;
+    /* border: .5px solid black; */
+    border-radius: 5px;
+}
 
-                        <div class="col-4 d-flex">
-                            <a class="navbar-brand m-auto" href="index.html">
-                                <img src="./images/logo.png" alt="logo">
-                            </a>
-                        </div>
+@media screen and (max-width: 428px) {
+    .ArticalDIv .TextPart{
+        padding: 3px;
+        text-align: left;
+        font-size: 14px;
+    }
 
-                        <!-- show in mobile -->
-                        <div class="col-4 SocialIon SocialIonMobo text-center">
-                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                        </div>
-                    </div>
-                </div>
+    .Artical{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+}
+
+.ArticalDIv .TextPart h5{
+    text-align: left;
+    border-left: 3px solid #225fcd;
+    padding-left: 0.5rem;
+}
+
+.AeicalUnderPadding{
+    border: 1px solid #020202;
+    border-radius: 7px;
+}
+
+.ArticalDIv div{
+    background-color: #ffffff;
+    box-shadow: 0 0 3px #949494;
+}
+
+.ArticalDIv .AeicalUnderPadding:hover{
+    border: 1px solid var(--comola);
+}
+ 
+.Artical img{
+    width: 100%;
+}
+
+.AeicalUnderPadding{
+    position: relative;
+}
+
+.ImgTitelSpan{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--orange);
+    color: var(--white);
+    border-radius: 3px;
+    padding: 6px ;
+    font-size: 12px;
+}
+
+.ImgTitelSpanHome{
+    font-size: 10px;
+    padding: 4px ;
+}
+
+.CricketContainer{
+    padding: 0;
+}
+
+@media screen and (max-width: 575px) {
+    .PhonWidth50{
+        width: 50%;
+    }
+
+    .Artical{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 1.74rem;
+        padding-bottom: 1.1rem;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        display: none;
+    }
+
+    .CricketMoboPadding{
+        margin-left: 14px !important;
+        margin-right: 15px !important;
+        /* width: 100%; */
+    }
+
+    .CricketAdd{
+        padding: 0 14px;
+    }   
+
+    .CricketMoboPadding .Team img{
+        width: 28px !important;
+        height: 28px !important;
+    }
+
+    .CricketMoboPadding .Team .Team1 span, 
+    .CricketMoboPadding .Team .Team2 span{
+        font-size: 16px !important;
+    }
+
+    .CricketMoboPadding .Result p{
+        font-size: 15px !important;
+    }
+
+    .ArticalDIv .TextPart h5 {
+        font-size: 15px !important;
+    }
+
+    .ArticalDIv .TextPart h3 {
+        font-size: 17px !important;
+    }
+
+    .ArticalDIv .TextPart{
+        padding-left: 7px;
+        padding-right: 7px;
+        border-radius: 7px !important;
+        text-align: justify;
+    }
+}
+
+/* Artical end */
+
+
+/* Highlights starts*/
+.Highlights .PresentMatch{
+    margin: auto;
+    margin-bottom: 1rem;
+    border: 1px solid #a3a3a3;
+}
+
+.Highlights .Result{
+    /* text-align: center; */
+    margin: auto;
+    margin: 2px 0;
+    background-color: var(--orange);
+    border: 29px;
+    padding: 7px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.Highlights .Result p span{
+    font-weight: bold;
+    color: var(--black);
+}
+
+.WinningP{
+    font-weight: 200;
+    color: rgb(14, 14, 14);  
+    text-align: left;
+    margin-top: 0.4rem;
+    padding-left: 36px;
+    font-weight: 400;
+}
+
+.CricketMoboPadding img{
+    margin-right: .8rem;
+}
+
+@media screen and (max-width: 766px) {
+    .WinningP{   
+        font-size: 14px !important;
+        text-align: left;
+    }
+
+    .Highlights .predentmobo .Result{
+        border-radius: 5px;
+    }
+
+    .Highlights .predentmobo .Result p{
+        font-size: 10px;
+    }
+
+    .Highlights{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .ColMarginNone{
+        padding-left: 0 ;
+        padding-right: 0;
+    }
+
+    .MacthTitle {   
+        font-size: 17px;
+    }
+
+    .HomeMatch .DateTime{
+        font-size: 8px;
+    }
+
+    .HomeMatch .Date{
+        font-size: 14px !important;
+    }
+
+    .HomeMatch .vs{
+        width: 100%;
+    }
+
+    .LiveScoreSection{
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+        border: 1px solid black !important;
+    }
+
+    .cricket{
+        padding: 0px 3px !important;
+    }
+
+    .LiveScorePagge{
+        padding: 0 16px;
+    }
+
+    .LiveScorePaggeAdd{
+        padding: 0 5px !important;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .HomeMatch .Team img{
+        width: 15px !important;
+        height: 15px !important;
+    }
+
+    .HomeMatch .Team span{
+        font-weight: 500 !important;
+        font-size: 8px !important;
+    }
+
+    .HomeMatch .DateTime{
+        padding-top: 13px !important;
+    }
     
-                <div class="BottomNav">
-                    <div class="collapse navbar-collapse container" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                                </li>
-                                
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./pages/Cricket.html">Cricket</a>
-                                </li>
-    
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link" href="./pages/Foootball.html">
-                                        Football
-                                    </a>
-                                </li>
-    
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link" href="./pages/Kabadi.html">
-                                        Kabaddi
-                                    </a>
-                                </li>
-    
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./pages/LiveScore.html">Live Score</a>
-                                </li>
+}
 
-                                <!-- show in phone -->
-                                <!-- <div class="LoginBtn LoginBtnPhone">
-                                    <a href="./pages/LoginSingin.html" class="BtnA">LOGIN</a>
-                                </div> -->
-                        </ul>
-                    </div>
-                </div>
-            <!-- </div> -->
-        </nav>
-        <!-- navber end -->
+.Highlights .DateTime{
+    padding-top: 28px;
+}
 
-        <!-- heros carosul start -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+.AddImgDiv img{
+    width: 100%;
+    margin-bottom: .5rem;
+    border-radius: 5px;
+}
 
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="./images/Football-Banner.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="./images/Cricket-Banner.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                  <img src="./images/Kabbadi-Banner.jpg" class="d-block w-100" alt="...">
-                </div>
-              </div>
+@media screen and (min-width: 1024px) {
+    .Highlights {
+        width: 100%;
+        margin: auto;
+    }
+}
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            </button>
+/* kabadi result start */
+.kabbadi-result{
+    font-size: 12px;
+}
 
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </button>
-        </div>
-        <!-- heros carosul end -->
+.KabadiDateTime{
+    padding-top: 0 !important;
+    width: 100%;
+}
 
-        <!-- live score start -->
-        <section class="LiveScore">
-            <div class="container">
-                <div class="owl-carousel carousel2 owl-theme">
-                    <div class="item">
-                        <a href="./pages/LiveScore.html">
-                            <div class="PresentMatch row HomeMatch">
-                                <div class="col-3 DateTime">
-                                    <p class="Date">3oct</p>
-                                    
-                                    <p>4:30pm</p>
-                                </div>
-    
-                                <div class="col-9 Team">
-                                    <div class="Team1">
-                                        <img src="./images/BD-falg.png" alt="">
-                                        <span>Bang 102-8(16.4)</span> 
-                                    </div>
-                                    <p class="vs"><span>VS</span></p>
-                                    <div class="Team2">
-                                        <img src="./images/India-flag.png" alt="">
-                                        <span>India 162-6(20)</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+.KabdiTime{
+    font-size: 16px;
+}
 
-                    <div class="item">
-                        <a href="./pages/LiveScore.html">
-                            <div class="PresentMatch row HomeMatch">
-                                <div class="col-3 DateTime">
-                                    <p class="Date">3oct</p>
-                                    
-                                    <p>4:30pm</p>
-                                </div>
-    
-                                <div class="col-9 Team">
-                                    <div class="Team1">
-                                        <img src="./images/BD-falg.png" alt="">
-                                        <span>Bang 102-8(16.4)</span> 
-                                    </div>
-                                    <p class="vs"><span>VS</span></p>
-                                    <div class="Team2">
-                                        <img src="./images/India-flag.png" alt="">
-                                        <span>India 162-6(20)</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+.KabadiTeam .Team1,.KabadiTeam  .Team2{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
 
-                    <div class="item">
-                        <a href="./pages/LiveScore.html">
-                            <div class="PresentMatch row HomeMatch">
-                                <div class="col-3 DateTime">
-                                    <p class="Date">3oct</p>
-                                    
-                                    <p>4:30pm</p>
-                                </div>
-    
-                                <div class="col-9 Team">
-                                    <div class="Team1">
-                                        <img src="./images/BD-falg.png" alt="">
-                                        <span>Bang 102-8(16.4)</span> 
-                                    </div>
-                                    <p class="vs"><span>VS</span></p>
-                                    <div class="Team2">
-                                        <img src="./images/India-flag.png" alt="">
-                                        <span>India 162-6(20)</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+.KabadiTeam .vs{
+    width:  100%;
+}
 
-                    <div class="item">
-                        <a href="./pages/LiveScore.html">
-                            <div class="PresentMatch row HomeMatch">
-                                <div class="col-3 DateTime">
-                                    <p class="Date">3oct</p>
-                                    
-                                    <p>4:30pm</p>
-                                </div>
-    
-                                <div class="col-9 Team">
-                                    <div class="Team1">
-                                        <img src="./images/BD-falg.png" alt="">
-                                        <span>Bang 102-8(16.4)</span> 
-                                    </div>
-                                    <p class="vs"><span>VS</span></p>
-                                    <div class="Team2">
-                                        <img src="./images/India-flag.png" alt="">
-                                        <span>India 162-6(20)</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+.KabadiTeam{
+    border-radius: 5px;
+}
+.GameName {
+    /* margin: auto; */
+    margin-top: .5rem;
+    border-radius: 10px;
+}
 
-                    <div class="item">
-                        <a href="./pages/LiveScore.html">
-                            <div class="PresentMatch row HomeMatch">
-                                <div class="col-3 DateTime">
-                                    <p class="Date">3oct</p>
-                                    
-                                    <p>4:30pm</p>
-                                </div>
-    
-                                <div class="col-9 Team">
-                                    <div class="Team1">
-                                        <img src="./images/BD-falg.png" alt="">
-                                        <span>Bang 102-8(16.4)</span> 
-                                    </div>
-                                    <p class="vs"><span>VS</span></p>
-                                    <div class="Team2">
-                                        <img src="./images/India-flag.png" alt="">
-                                        <span>India 162-6(20)</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+.GameName ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--black);
+    padding: 8px 0;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
 
-                    <div class="item">
-                        <a href="./pages/LiveScore.html">
-                            <div class="PresentMatch row HomeMatch">
-                                <div class="col-3 DateTime">
-                                    <p class="Date">3oct</p>
-                                    
-                                    <p>4:30pm</p>
-                                </div>
-    
-                                <div class="col-9 Team">
-                                    <div class="Team1">
-                                        <img src="./images/BD-falg.png" alt="">
-                                        <span>Bang 102-8(16.4)</span> 
-                                    </div>
-                                    <p class="vs"><span>VS</span></p>
-                                    <div class="Team2">
-                                        <img src="./images/India-flag.png" alt="">
-                                        <span>India 162-6(20)</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+.GameName ul li{
+    margin-right: .3rem;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #525252;
+    color: rgb(219, 219, 219);
+    padding: 4px 8px;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+}
 
-                    <div class="item">
-                        <a href="./pages/LiveScore.html">
-                            <div class="PresentMatch row HomeMatch">
-                                <div class="col-3 DateTime">
-                                    <p class="Date">3oct</p>
-                                    
-                                    <p>4:30pm</p>
-                                </div>
-    
-                                <div class="col-9 Team">
-                                    <div class="Team1">
-                                        <img src="./images/BD-falg.png" alt="">
-                                        <span>Bang 102-8(16.4)</span> 
-                                    </div>
-                                    <p class="vs"><span>VS</span></p>
-                                    <div class="Team2">
-                                        <img src="./images/India-flag.png" alt="">
-                                        <span>India 162-6(20)</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    
-                    <div class="item">
-                        <a href="./pages/LiveScore.html">
-                            <div class="PresentMatch row HomeMatch">
-                                <div class="col-3 DateTime">
-                                    <p class="Date">3oct</p>
-                                    
-                                    <p>4:30pm</p>
-                                </div>
-    
-                                <div class="col-9 Team">
-                                    <div class="Team1">
-                                        <img src="./images/BD-falg.png" alt="">
-                                        <span>Bang 102-8(16.4)</span> 
-                                    </div>
-                                    <p class="vs"><span>VS</span></p>
-                                    <div class="Team2">
-                                        <img src="./images/India-flag.png" alt="">
-                                        <span>India 162-6(20)</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- live score end -->
+.GameName ul li a {
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+}
 
-        <!-- add banner start-->
-        <section class="AddBanner">
-            <div class="container">
-                <img src="./images/add-banner1.jpg" alt="">
-            </div>
-        </section>
-        <!-- add banner end -->
-        
-        <!-- article start -->
-        <section class="Artical">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6 col-md-4 ArticalDIv ArticalDIvHome PhonWidth50">
-                        <a href="#">
-                            <div class="AeicalUnderPadding">
-                                <!-- <a href="#"> -->
-                                    <img src="./images/indian-artical.jpg" alt="">
-                                    <span class="ImgTitelSpan ImgTitelSpanHome">News</span>
-                                <!-- </a> -->
-    
-                                <div class="TextPart">
-                                    <h5>Cricket Highlights, 28 Sept: IND vs SA (1st T20I)</h5>
-    
-                                    <p>
-                                        India has maintained a great form in T20Is. After winning the series against Australia at home, Rohit Sharma’s team....
-                                    </p>
-    
-                                    <!-- <a href="#"></a> -->
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+.GameName ul .activegame{
+    color: rgb(255, 255, 255);
+}
 
-                    <div class="col-lg-3 col-sm-6 col-md-4 ArticalDIv ArticalDIvHome PhonWidth50 ">
-                        <a href="#">
-                            <div class="AeicalUnderPadding">
-                                <!-- <a href="#"> -->
-                                    <img src="./images/indian-artical.jpg" alt="">
-                                    <span class="ImgTitelSpan ImgTitelSpanHome">Highlights</span>
-                                <!-- </a> -->
-    
-                                <div class="TextPart">
-                                    <h5>Cricket Highlights, 28 Sept: IND vs SA (1st T20I)</h5>
-    
-                                    <p>
-                                        India has maintained a great form in T20Is. After winning the series against Australia at home, Rohit Sharma’s team....
-                                    </p>
-    
-                                    <!-- <a href="#"></a> -->
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+/* live score section start */
+.LiveScoreSection{
+    border: 2px solid var(--black);
+    border-radius: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: 1rem;
+    padding-bottom: .5rem;
+}
 
-                    <div class="col-lg-3 col-sm-6 col-md-4 ArticalDIv ArticalDIvHome PhonWidth50">
-                        <a href="#">
-                            <div class="AeicalUnderPadding">
-                                <!-- <a href="#"> -->
-                                    <img src="./images/indian-artical.jpg" alt="">
-                                    <span class="ImgTitelSpan ImgTitelSpanHome">T20 World Cup 2022</span>
-                                    
-                                <!-- </a> -->
-    
-                                <div class="TextPart">
-                                    <h5>Cricket Highlights, 28 Sept: IND vs SA (1st T20I)</h5>
-    
-                                    <p>
-                                        India has maintained a great form in T20Is. After winning the series against Australia at home, Rohit Sharma’s team....
-                                    </p>
-    
-                                    <!-- <a href="#"></a> -->
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+.cricket{
+    padding: 10px 16px;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    color: black;
+}
 
-                    <div class="col-lg-3 col-sm-6 col-md-4 ArticalDIv ArticalDIvHome PhonWidth50">
-                        <a href="#">
-                            <div class="AeicalUnderPadding">
-                                <!-- <a href="#"> -->
-                                    <img src="./images/indian-artical.jpg" alt="">
-                                    <span class="ImgTitelSpan ImgTitelSpanHome">T20 World Cup 2022</span>
-                                <!-- </a> -->
-    
-                                <div class="TextPart">
-                                    <h5>Cricket Highlights, 28 Sept: IND vs SA (1st T20I)</h5>
-    
-                                    <p>
-                                        India has maintained a great form in T20Is. After winning the series against Australia at home, Rohit Sharma’s team....
-                                    </p>
-    
-                                    <!-- <a href="#"></a> -->
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- article end -->
+.MacthTitle{
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+    padding-bottom: .2rem;
+}
 
-        <!-- add banner start-->
-        <section class="AddBanner AddBanner2">
-            <div class="container">
-                <img src="./images/add-banner1.jpg" alt="">
-            </div>
-        </section>
-        <!-- add banner end -->
+.MatvhDtatu{
+    display: flex;
+    flex-wrap: wrap;
+}
 
-        <!-- footer start -->
-        <footer>
-            <div class="container row m-auto">
-                <div class="FooterTop">
-                    <div class="FooterImg col-3">
-                        <img src="./images/logo.png" alt="">
-                    </div>
+.MatvhDtatu span{
+    margin-right: .2rem;
+    background-color: red;
+    padding: 1px 8px;
+    height: 28px;
+    color: var(--white);
+}
 
-                    <div class="col-9 ListFooter">
-                        <div class="d-flex FooterTop2">
-                            <div class="SocialIon">
-                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                            </div>
-        
-                            <div class="FooterSubscribe">
-                                <input type="text" placeholder="Give Your ID">
-                                <label for="" >Subscribe </label>
-                            </div>
-                        </div>
-                    </div>  
+.score{
+    margin-bottom: .5rem;
+}
 
-                    <div class="FooterBottom  m-auto">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="./pages/Cricket.html">Cricket</a></li>
-                            <li><a href="./pages/Foootball.html">Football</a></li>
-                            <li><a href="./pages/Kabadi.html">Kabaddi</a></li>
-                            <li><a href="./pages/LiveScore.html">Live Score</a></li>
-                            <!-- <li><a href="index.html">Terms & Conditions</a></li> -->
-                        </ul>
-                    </div>
-                </div>
+.score .target{
+    text-decoration: initial;
+}
 
-            </div>
-        </footer>
-        <!-- footer end -->
+.LiveTeam {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: .3rem;
+}
+
+.LiveTeam div span {
+    font-weight: 500;
+}
+
+.LiveTeam1 img{
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    margin-right: .3rem;
+    margin-top: .2rem;
+}
+
+.LiveTeam1 h5{
+    color: var(--black) !important;
+}
 
 
-        <!-- bootstap script -->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    
-        <!-- Owl carosul script -->
-        <script src="JavaScipt/jquery-3.6.1.min.js"></script>
-        <script src="JavaScipt/owl.carousel.min.js"></script>
-        
-        <script type="text/javascript">
-            $('.carousel2').owlCarousel({
-                loop:true,
-                margin:10,
-                dots: true,
-                nav:false,
-                autoplay: true,
-                autoplayTimeout: 3000,
-                // responsiveClass:true,
-                responsive:{
-                    0:{
-                        items:2,
-                    },
-                    600:{
-                        items:3,
-                    },
-                    1000:{
-                        items:4,
-                        loop:true
-                    }
-                }
-            })
-        </script>
-    </body>
-</html>
+.caption{
+    background-color: #cfcdcd;
+    color: black;
+    padding: 6px ;
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+
+table{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+    border-top: 1px solid rgb(94, 93, 93);
+}
+
+table tr{
+    margin: 10px;
+}
+
+.name{
+    font-weight: 500;
+}
+
+.textleft{
+    text-align: left;
+    padding-left: .5rem;
+}
+
+.Football .score{
+    margin: 1rem 0;
+}
+
+.score .Team1 img, .score .Team2 img{
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.score .Team1, .score .Team2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.score .Team1 span, .score .Team2 span{
+    margin-top: .2rem;
+}
+
+.score .vs{
+    width: 100%;
+}
+
+.TypefoScore {
+    margin-bottom: .5rem;
+}
+
+.TypefoScore ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.TypefoScore ul li {
+    margin-left: .5rem;
+    border: 1px solid var(--black);
+    padding: 4px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: .3rem;
+}
+
+.TypefoScore ul .active{
+    border: 1px solid var(--comola);
+}
+
+.TypefoScore ul .active a{
+    color: var(--comola);
+}
+
+.TypefoScore ul li a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.FootballScore{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.PlayerNameICon i{
+    color: #225fcd;
+}
+
+.FootballSummary{
+    border: 1px solid rgb(165, 165, 165);
+    padding: 10px;
+}
+
+.YellowColor{
+    color: rgb(255, 206, 0) !important;
+}
+
+.FootballSummaryDiv{
+    margin-bottom: .4rem;
+}
+
+.KabaddiScore{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.KabaddiScore span{
+    background: #e7e7e7;
+    padding: 1px 8px;
+}
+
+.KabaddiLive .Time{
+    margin-right: .4rem;
+    text-align: center;
+}
+
+.KabaddiLive .Happend{
+    margin-left: .4rem;
+}
+
+.CricketLiveScored{
+    background-color: rgb(224, 224, 224);
+    padding: 6px;
+}
+
+.CricketCommentry {
+    margin-bottom: .5rem;
+}
+
+.CricketCommentry .Status {
+    margin-right: .5rem;
+    font-weight: bold;
+    background-color: rgb(216, 0, 0);
+    padding: 2px 6px;
+    color: rgb(255, 255, 255);
+    width: 40px;
+    text-align: center;
+}
+
+.CricketCommentry .Six {
+    background-color: rgb(0 165 55);
+}
+
+.CricketCommentry .NormalRun{
+    background-color: rgb(233, 232, 232) !important;
+    color: black !important;
+}
+
+.OverStarus{
+    background-color: rgb(100 99 99);
+    display: block;
+    padding: 6px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0.4rem;
+}
+
+.CommentryTime{
+    font-weight: 500;
+}
+
+.item a{
+    text-decoration: none;
+}
+
+.Artical a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 428px) and (min-width: 375px){
+    .HomeMatch .Team span{
+        font-size: 11px !important;
+    }
+}
+
+@media screen and (max-width: 374px) and (min-width: 333px){
+    .HomeMatch .Team span{
+        font-size: 9px !important;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .LiveScore{
+        padding: 1rem 0;
+        padding-bottom: 0.3rem;
+    }
+
+    .AddBanner{
+        padding: 1.3rem 0 !important;
+        padding-bottom: 0rem !important;
+    }
+
+    .AddBanner2{
+        margin-bottom: 1rem;
+    }
+
+    .ArticalHome{
+        padding-bottom: 0 !important;
+    }
+}
+
+
+/* live score section end */
+
+
+/* colors var */
+:root {
+    --orange: #f49c00;
+    --hpverblue: #a66a01;
+    --whiteblue: #f7bb53;
+    --white: #ffffff; 
+    --black: #000000;
+    --comola: #F79E00;
+    --lightcomola: #ffb941;
+}
